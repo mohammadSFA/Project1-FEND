@@ -1,0 +1,22 @@
+
+.subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    float: left;
+    background-color: #686868;
+    color: snow;
+    padding-top: 20px;
+}
+
+button {
+    margin: 20px;
+}
+
+input {
+    margin: 10px;
+}
+
+.intouch {
+    margin-top: 50px;
+}

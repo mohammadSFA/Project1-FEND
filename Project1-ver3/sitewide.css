@@ -1,0 +1,22 @@
+*{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.box {
+    margin: 0px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.site {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 200px 1000px 200px 50px;
+    background-color: aliceblue;
+    min-width: fit-content;
+}

@@ -1,0 +1,83 @@
+@import "../sitewide.css";
+@import "../header.css";
+@import "../subscribe.css";
+@import "../footer.css";
+
+
+.main {
+    margin: 30px;
+    padding: 20px;
+    background-color: #cccccc;
+    overflow: auto;
+}
+
+.bridge {
+    width: 80%;
+}
+
+p {
+    width: 80%;
+}
+
+.links {
+    background-color: #555;
+    color: snow;
+    display: grid;
+    grid-template-rows: 50px 1fr 1fr 1fr;
+    grid-gap: 5px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.sbridge {
+    max-width: 60%;
+}
+
+.caption {
+    font-size: 0.8vh;
+    margin-top: 10px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .bridge {
+        width: 70%;
+    }
+    
+    p {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bflex {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .bridge {
+        width: 80%;
+    }
+    
+    p {
+        width: 90%;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .links {
+        float: right;
+        width: 30%;
+        height: fit-content;
+
+    }
+}
+
